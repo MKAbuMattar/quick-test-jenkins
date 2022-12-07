@@ -1,15 +1,7 @@
 <?php
 
-echo "Test file";
+// Include the controller file
+require_once 'app/controllers/index.php';
 
-echo "<br/>";
-
-echo "github hooks";
-
-echo "<br/>";
-
-echo "github hooks m to main";
-
-echo "<br/>";
-
-echo "test";
+// Include the view file
+require_once 'app/views/index.php';
