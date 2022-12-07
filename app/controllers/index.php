@@ -1,7 +1,7 @@
 <?php
 
 // Include the connection.php file
-require_once '../config/connection.php';
+require_once 'app/config/connection.php';
 
 // Get the data from the database
 $query = "SELECT * FROM `users`";
@@ -11,5 +11,3 @@ $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // close the connection
 $conn = null;
-
-?>
