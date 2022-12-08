@@ -5,3 +5,4 @@ require_once 'app/controllers/index.php';
 
 // Include the view file
 require_once 'app/views/tabs.php';
+
