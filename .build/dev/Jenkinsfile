@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    AWS_PUBLIC_IP_DEV = '18.233.121.142'
+    AWS_PUBLIC_IP_DEV = '3.82.69.193'
   }
 
   stages {

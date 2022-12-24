@@ -1,9 +1,9 @@
 <?php
 
 define('URL', $_SERVER['HTTP_HOST']);
-define('DEV_DNS', 'ec2-18-233-121-142.compute-1.amazonaws.com');
+define('DEV_DNS', 'ec2-3-82-69-193.compute-1.amazonaws.com');
 define('PROD_DNS', 'ec2-18-204-62-90.compute-1.amazonaws.com');
-define('DEV', '18.233.121.142');
+define('DEV', '3.82.69.193');
 define('PROD', '18.204.62.90');
 
 if (URL == PROD_DNS || URL == PROD) {
